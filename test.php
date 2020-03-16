@@ -1,7 +1,9 @@
 <html>
 <body>
 
-<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+<?php //echo $_SERVER['PHP_SELF']; ?>
+
+<form method="post" action="./new_page.php">
     Name: <input type="text" name="fname">
     <input type="submit">
 </form>
@@ -14,9 +16,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Name is empty";
     } else {
         echo $name;
-        $fp = fopen('data.txt', 'w');
-        fwrite($fp, $name);
-        fclose($fp);
+//        $fp = fopen('data.txt', 'w');
+//        fwrite($fp, $name);
+//        fclose($fp);
+
+        printLog($name);
     }
 }
 ?>

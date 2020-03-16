@@ -2,20 +2,20 @@
 
 exec("C://Users/Alexander/echo.bat");
 
+require_once "functions.php";
+
+foreach ($_SERVER as &$value) {
+    printLog($value);
+}
+// $arr is now array(2, 4, 6, 8)
+unset($value); // break the reference with the last element
+
 $myShoe = "new_test";
 
 log($myShoe);
 
-function printLog($name)
-{
-    $fp = fopen('data.txt', 'w');
-    fwrite($fp, $name);
-    fclose($fp);
-}
+header("Location: ./new_page.php");
+exit();
 
-include_once('templates/main/header.php');
-include_once('templates/category/list_categories.php');
-include_once('templates/product/list_products.php');
-include_once('templates/main/footer.php');
-include_once('test.php');
+
 ?>

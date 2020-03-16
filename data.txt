@@ -1,0 +1,30 @@
+C:UsersAlexanderPhpstormProjectsWebShop
+::1
+53289
+PHP 7.4.3 Development Server
+HTTP/1.1
+localhost
+80
+/
+GET
+/index.php
+C:UsersAlexanderPhpstormProjectsWebShopindex.php
+/index.php
+localhost
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0
+text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+de,en-US;q=0.7,en;q=0.3
+gzip, deflate
+keep-alive
+Phpstorm-6b73e9=fd21f077-0179-4b48-988c-a043dcb420d9; XDEBUG_SESSION=PHPSTORM
+1
+1584375115.5134
+1584375115
+lolol
+teletubby
+what up
+NO NO NO NO No
+lmao
+test
+asdasd
+hallo
